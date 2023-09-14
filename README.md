@@ -9,8 +9,8 @@ Racing Simulation Dataset
 
 import pandas as pd
 
-df = pd.read_csv("s3://data3001-racing/filename.csv")
+df = pd.read_csv("https://data3001-racing.s3.ap-southeast-2.amazonaws.com/filename.csv")
 
-e.g. df = pd.read_csv("s3://data3001-racing/f1sim-data-2022.csv")
+e.g. df = pd.read_csv("https://data3001-racing.s3.ap-southeast-2.amazonaws.com/f1sim-ref-line.csv")
 
 lmk if it works thanks guys
