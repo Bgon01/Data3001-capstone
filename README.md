@@ -9,7 +9,7 @@ Racing Simulation Dataset
 
 import pandas as pd
 
-df = pd.read_csv("s3://data3001-racing/<filename>")
+df = pd.read_csv("s3://data3001-racing/filename.csv")
 
 e.g. df = pd.read_csv("s3://data3001-racing/f1sim-data-2022.csv")
 
