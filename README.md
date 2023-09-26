@@ -14,3 +14,10 @@ df = pd.read_csv("https://data3001-racing.s3.ap-southeast-2.amazonaws.com/filena
 e.g. df = pd.read_csv("https://data3001-racing.s3.ap-southeast-2.amazonaws.com/f1sim-ref-line.csv")
 
 lmk if it works thanks guys
+
+
+
+### Use this code at the start of new notebooks for functions
+%run "..\data_cleaning\data_preprocessing.ipynb"
+
+This code creates the functions that can be used to preprocess the data
